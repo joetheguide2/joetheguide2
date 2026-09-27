@@ -6,35 +6,81 @@
 <title>Aarav Singh</title>
 <meta name="description" content="Aarav Singh is an undergraduate at IIIT Naya Raipur working on trustworthy and reliable AI and NLP for social good.">
 <style>
+  :root{
+    --ink:#17181a;
+    --soft:#5a5d63;
+    --accent:#33406e;
+    --accent-bg:#e9ecf5;
+    --line:#dcdde1;
+  }
   body{
     max-width:700px;
-    margin:40px auto;
+    margin:48px auto;
     padding:0 20px;
     font-family:Georgia,'Charter','Times New Roman',serif;
     font-size:17px;
     line-height:1.55;
-    color:#111;
+    color:var(--ink);
     background:#fff;
   }
-  h1{font-size:1.7rem;margin:0 0 4px;}
-  p{margin:0 0 10px;}
-  a{color:#2255aa;text-decoration:none;}
+  a{color:var(--accent);text-decoration:none;}
   a:hover{text-decoration:underline;}
-  .quote{font-style:italic;margin:14px 0;}
-  .meta p{margin:0 0 2px;}
-  nav{margin:16px 0 22px;font-family:sans-serif;font-size:.95rem;}
-  nav a{margin-right:14px;}
-  h4{font-family:sans-serif;font-size:.85rem;letter-spacing:.03em;text-transform:uppercase;color:#555;margin:28px 0 10px;}
+  p{margin:0 0 10px;}
+
+  .header{display:flex;gap:18px;align-items:flex-start;margin-bottom:6px;}
+  .avatar{
+    width:80px;height:80px;flex:none;
+    border-radius:4px;
+    object-fit:cover;
+    border:1px solid var(--line);
+  }
+  h1{
+    font-size:1.7rem;
+    margin:0;
+    display:inline-block;
+    border:1.5px solid var(--ink);
+    padding:5px 14px;
+  }
+  .quote{font-style:italic;color:var(--soft);margin:14px 0 12px;}
+  .meta p{margin:0 0 2px;font-size:.97rem;}
+  .meta p:last-child{font-weight:600;}
+
+  nav{margin:20px 0 26px;font-family:sans-serif;font-size:.92rem;}
+  nav a{
+    display:inline-block;
+    padding:6px 16px;
+    border-radius:4px;
+    margin-right:8px;
+    color:var(--accent);
+    background:var(--accent-bg);
+  }
+  nav a:hover{text-decoration:none;opacity:.85;}
+  nav a.active{background:var(--accent);color:#fff;}
+
+  h4{
+    font-family:sans-serif;
+    font-size:.82rem;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--soft);
+    margin:30px 0 12px;
+    padding-bottom:6px;
+    border-bottom:1px solid var(--line);
+  }
   ul{padding-left:20px;margin:0 0 14px;}
   li{margin-bottom:9px;}
-  footer{margin-top:36px;font-size:.9rem;color:#555;}
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);font-size:.88rem;color:var(--soft);}
 </style>
 </head>
 <body>
 
-<h1>Aarav Singh</h1>
-
-<p class="quote">"My calling is to contribute as much as I can, to humanity."</p>
+<div class="header">
+  <img class="avatar" src="avatar.jpg" alt="Aarav Singh">
+  <div>
+    <h1>Aarav Singh</h1>
+    <p class="quote">"My calling is to contribute as much as I can, to humanity."</p>
+  </div>
+</div>
 
 <div class="meta">
 <p>B.Tech at IIIT Naya Raipur</p>
@@ -43,7 +89,7 @@
 </div>
 
 <nav>
-<a href="index.html">about</a> <a href="research.html">research</a>
+<a class="active" href="index.html">about</a><a href="research.html">research</a>
 </nav>
 
 <p>
@@ -56,7 +102,7 @@ for social good.
 <ul>
 <li>09-2026: New preprint, <a href="https://arxiv.org/abs/2609.18644">Fallacy Benchmarks Measure Scheme Recognition, Not Fallacy Detection</a>.</li>
 <li>2026: Our paper <a href="https://arxiv.org/abs/2609.00256">NSIDDx</a> was accepted to the NLP4PI Workshop @ EMNLP 2026.</li>
-<li>2025: Reached Kaggle Expert in Datasets, rank 399 globally — my highest placement so far. <a href="https://www.kaggle.com/joetheguide">Profile</a>.</li>
+<li>2025: Reached Kaggle Expert in Datasets, rank 399 globally, my highest placement so far. <a href="https://www.kaggle.com/joetheguide">Profile</a>.</li>
 </ul>
 
 <h4>Contact</h4>
@@ -67,6 +113,8 @@ for social good.
 <li><a href="https://scholar.google.com/citations?user=DXKNshwAAAAJ&hl=en">Google Scholar</a></li>
 <li><a href="https://www.linkedin.com/in/aarav-singh-2038372b7/">LinkedIn</a></li>
 </ul>
+
+<footer>Aarav Singh &middot; IIIT Naya Raipur</footer>
 
 </body>
 </html>

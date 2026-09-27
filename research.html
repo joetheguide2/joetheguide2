@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=840px">
+<title>Research — Aarav Singh</title>
+<style>
+  body{
+    max-width:700px;
+    margin:40px auto;
+    padding:0 20px;
+    font-family:Georgia,'Charter','Times New Roman',serif;
+    font-size:17px;
+    line-height:1.55;
+    color:#111;
+    background:#fff;
+  }
+  h1{font-size:1.4rem;margin:0 0 4px;}
+  h3{font-size:1.05rem;margin:0 0 3px;}
+  p{margin:0 0 10px;}
+  a{color:#2255aa;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  nav{margin:16px 0 26px;font-family:sans-serif;font-size:.95rem;}
+  nav a{margin-right:14px;}
+  .venue{font-family:sans-serif;font-size:.9rem;color:#555;margin:0 0 8px;}
+  .paper{margin-bottom:32px;}
+  .links{font-family:sans-serif;font-size:.9rem;}
+  footer{margin-top:36px;font-size:.9rem;color:#555;}
+</style>
+</head>
+<body>
+
+<h1>Research</h1>
+
+<nav>
+<a href="index.html">about</a> <a href="research.html">research</a>
+</nav>
+
+<div class="paper">
+<h3>Fallacy Benchmarks Measure Scheme Recognition, Not Fallacy Detection</h3>
+<p class="venue">Preprint, 2026</p>
+<p>
+Fallacy-detection benchmarks report very low false-positive rates, which
+is usually read as evidence that models rarely over-flag valid arguments.
+This paper shows that the number is small because of how the "valid"
+class is assembled in the first place: it isn't built the way the fallacy
+classes are, but is instead the leftover material from an annotation
+process — off-topic remarks, bare opinions, fragments, and genuine
+arguments that just don't share a fallacy's reasoning pattern. Sampling
+the valid class across four benchmarks turns up almost no material that
+is actually scheme-matched to the fallacies being tested, meaning a
+model can score well by recognizing which argumentation scheme is in
+play rather than by telling valid reasoning apart from fallacious
+reasoning.
+</p>
+<p class="links"><a href="https://arxiv.org/abs/2609.18644">arXiv</a></p>
+</div>
+
+<div class="paper">
+<h3>NSIDDx: A Design Framework for Neuro-Symbolic, Practitioner-First Differential Diagnosis in Low-Resource Settings</h3>
+<p class="venue">NLP4PI Workshop, EMNLP 2026 — Accepted</p>
+<p>
+LLM-based diagnostic systems post high semantic accuracy on benchmarks,
+but open-ended evaluation on clinically uncommon cases reveals a wide gap
+between that headline accuracy and outputs a clinician can actually
+verify. Evaluating an LLM plus rare-disease RAG pipeline across two
+cohorts shows the approach produces confident answers that are often
+unverifiable and resistant to follow-up questioning. NSIDDx is proposed
+as a design framework arguing that diagnostic systems in low-resource
+settings need to treat the clinician as an active reasoning partner
+rather than a rubber stamp, instantiated as a neuro-symbolic pipeline —
+ternary symptom encoding, contradiction detection, audit strings, and
+practitioner override — that runs fully offline on consumer hardware.
+</p>
+<p class="links"><a href="https://arxiv.org/abs/2609.00256">arXiv</a> · <a href="https://github.com/joetheguide2/NSIDDX-">Code</a></p>
+</div>
+
+<footer>
+Aarav Singh · IIIT Naya Raipur
+</footer>
+
+</body>
+</html>

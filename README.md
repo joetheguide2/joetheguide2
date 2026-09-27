@@ -1,16 +1,20 @@
-## Hi there 👋
+# Aarav Singh
 
-<!--
-**joetheguide2/joetheguide2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+NLP researcher working on trustworthy and reliable AI and NLP for social good.
 
-Here are some ideas to get you started:
+Live site: https://joetheguide2.github.io
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Research interests
+
+- LLM evaluation methodology
+- Neuro-symbolic reasoning
+- Knowledge distillation
+- Trustworthy and reliable AI
+
+## Contact
+
+- Email: aaravsingh412006@gmail.com
+- GitHub: https://github.com/joetheguide2
+- Kaggle: https://www.kaggle.com/joetheguide
+- Google Scholar: https://scholar.google.com/citations?user=DXKNshwAAAAJ&hl=en
+- LinkedIn: https://www.linkedin.com/in/aarav-singh-2038372b7/
